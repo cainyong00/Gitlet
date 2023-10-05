@@ -1,0 +1,16 @@
+# A acceptance test to do addtion, commit, and then changing the values in the file and catcatcat out..
+> init
+<<<
++ catcatcat.txt catcatcat.txt
+> add catcatcat.txt
+<<<
+> commit "catcatcat has been commited, now catcatcat for change later"
+<<<
++ catcatcat.txt doublecatcatcat.txt
+# we want this to differ greatly
+> checkout -- catcatcat.txt
+<<<
+= catcatcat.txt catcatcat.txt
+## this test is for catcatcating the basic commands for the gitlet project. 
+## im adding comments.
+## Very very hard project hahahahahahaahaha
